@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="./estilo.css">
     <title>Ygor Xavier</title>
 </head>
 <body>
+    <!--
     <header>
         <nav>
             <h1>Ygor Xavierr</h1>
@@ -21,10 +22,27 @@
                 </ul>
         </nav>
     </header>
-    <hr>
+    -->
+   <header>
+    <h1>YGOR XAVIER<h3>Desenvolvedor em Desenvolvimento</h3></h1>
 
+    <input type="checkbox" id="hamburger-input" class="burger-shower" />
+    <label id="hamburger-menu" for="hamburger-input">
+        <nav id="sidebar-menu">
+          <h3>Menu</h3>
+          <ul>
+            <li><a href="#Biografia">Biografia</a></li>
+            <li><a href="#Direita">Linguagens</a></li>
+            <li><a href="#Projetos">Projetos</a></li>
+            <li><a href="#Contato">Contato</a></li>
+          </ul>
+        </nav>
+      </label>
+      <hr>
+    </header>
+        
     <h2>Biografia</h2>
-    <section id="Biografia">
+    <section id="Biografia" class="anime">
             <p>
                 &nbsp Ola meu nome e Ygor Xavier tenho 24 anos e completamente apaixonado por Basquete<br>
                 Cursando 7 semestre de ciência da computação pela universidade nove de julho
@@ -32,8 +50,9 @@
             </p>
     </section>
 
+    
      <h2>Linguagem</h2>
-    <section id="Direita">
+    <section id="Direita" class="anime">
         <div class="itemE">
             <a href="deedd"><img src="./IMG/Icone/Linguagens/121537.png"></a>
         </div>
@@ -55,7 +74,7 @@
 
     </section>
 
-    <section id="Projetos">
+    <section id="Projetos" class="anime">
         <section id="Descricao">
             <a href="" class="item"><img src="./IMG/Projetos//Contador.PNG"></a>
             <p>Este projeto teve como objeto aplicação Vanila javaScript</p>
@@ -78,7 +97,7 @@
     </section>
 
     <h2>Contato</h2>
-    <section id="Contato">
+    <section id="Contato" class="anime">
         <div class="cont">
             <a href="https://www.linkedin.com/ygor-xavier"><img src="./IMG/Icone/Contato/linkedin.png"></a>
         </div>
@@ -94,7 +113,8 @@
     <footer>
         Direitos autorais Reservados @YgorXavier
     </footer>
-
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
     <hr>
 </body>
 </html>
